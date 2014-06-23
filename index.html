@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="build/UPCA.css" />
+    <script src="build/UPCA.js"></script>
+  </head>
+
+  <body>
+
+    <div id="rewards"></div>
+
+    <script type="text/javascript">
+        var barcode = new UPCA(document.getElementById('rewards'));
+        barcode.render('12345678901');
+    </script>
+  </body>
+</html>

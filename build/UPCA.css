@@ -1,0 +1,20 @@
+.bar {
+    width: 3px;
+}
+
+       .bar.e { background:black }
+       .bar.o { background:white }
+.right .bar.e { background:white }
+.right .bar.o { background:black }
+
+.column,
+.bars,
+.bar {
+    height:100%;
+    float:left;
+    display:block;
+}
+
+.upc-wrap {
+    height:50px;
+}
