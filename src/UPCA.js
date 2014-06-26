@@ -161,12 +161,17 @@ UPCA.prototype = (function(){
         }
     };
 
-    methods.markup   = markup;            // __remove__
-    methods.generate = generate;          // __remove__
-    methods.checksum = checksum;          // __remove__
-    methods.generate = generate;          // __remove__
-    methods.html     = html;              // __remove__
-                                          // __remove__
+    // We expose the private methods to       // __remove__
+    // API for testing. During the build      // __remove__
+    // all lines matching `__remove__`        // __remove__
+    // are removed from the file.             // __remove__
+                                              // __remove__
+    methods.markup   = markup;                // __remove__
+    methods.generate = generate;              // __remove__
+    methods.checksum = checksum;              // __remove__
+    methods.generate = generate;              // __remove__
+    methods.html     = html;                  // __remove__
+                                              // __remove__
     return methods;
 })();
 
